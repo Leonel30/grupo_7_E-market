@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/grupo_7_E-market/public/css/style.css">
+    <link rel="stylesheet" href="/grupo_7_E-market/public/css/styleProduct.css">
     
 </head>
 <body>
@@ -25,13 +26,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/grupo_7_E-market/views/index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/grupo_7_E-market/views/detailProduct.html">Product</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -77,23 +75,89 @@
     </div>
     <!-- Fin de header -->
     <main>
-      <section class="mas-vistos">
-        <div class="mas-vistos-titulo">
-          <h3> Lo más Visto!! </h3>
+        <div class="card-wrapper">
+            <div class="card">
+                <!-- card left -->
+                <div class="product-imgs">
+                    <div class="img-display">
+                        <div class="img-showcase">
+                            <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-1.jpg" alt="Imagen Iphone">
+                            <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-2_GEO_US.jpg" alt="Imagen Iphone">
+                            <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-3.jpg" alt="Imagen Iphone">
+                            <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-4.jpg"" alt="Imagen Iphone">
+                            <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-5.jpg"" alt="Imagen Iphone">
+                        </div>
+                    </div>
+                    <div class="img-select">
+                        <div class="img-items">
+                            <a href="#" data-id="1">
+                                <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-1.jpg" alt="Imagen Iphone">
+                            </a>
+                        </div>
+                        <div class="img-items">
+                            <a href="#" data-id="2">
+                                <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-2_GEO_US.jpg" alt="Imagen Iphone">
+                            </a>
+                        </div>
+                        <div class="img-items">
+                            <a href="#" data-id="3">
+                                <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-3.jpg" alt="Imagen Iphone">
+                            </a>
+                        </div>
+                        <div class="img-items">
+                            <a href="#" data-id="4">
+                                <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-4.jpg" alt="Imagen Iphone">
+                            </a>
+                        </div>
+                        <div class="img-items">
+                            <a href="#" data-id="5">
+                                <img src="/grupo_7_E-market/public/img/iphone-13-pro-gallery-5.jpg" alt="Imagen Iphone">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card right -->
+                <div class="product-content">
+                    <h2 class="product-title">Iphone 13 Pro Max</h2>
+                    <a href="#" class="product-link">Visit e-commerce</a>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>4.8 (33)</span>
+                    </div>
+                    <div class="product-price">
+                        <p class="last-price">Precio viejo: <span>$1157.00</span></p>
+                        <p class="new-price">Precio nuevo: <span>$1099.00 (5%)</span></p>
+                    </div>
+                    <div class="product-detail">
+                        <h2>Descripción del producto: </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veniam, id dolore recusandae assumenda modi labore earum ducimus velit repellat omnis cupiditate facere perferendis repellendus?</p>
+                        <ul>
+                            <li>Color: <span>Sierra Blue</span></li>
+                            <li>Disponible: <span>Disponible</span></li>
+                            <li>Categoría: <span>Celulares</span></li>
+                            <li>Envíos: <span>Dentro de Argentina</span></li>
+                            <li>Gastos de envío: <span>Gratis</span></li>
+                        </ul>
+                    </div>
+                    <div class="purchase-info">
+                        <input type="number" min="0" value="1">
+                        <button type="button" class="btn">
+                            Añadir al carrito <i class="fas fa-cart-arrow-down"></i>
+                            <!-- <i class="fas fa-shopping-cart"></i> -->
+                        </button>
+                        <button type="button" class="btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
         </div>
-       <div class="mas-vistos-art">
-          <img src="/grupo_7_E-market/public/img/mackbookpro.jpeg" alt="img-1">
-        </div>
-      </section>
-      <section class="mas-vistos">
-        <div class="mas-vistos-titulo">
-          <h3> Lo más Visto!! </h3>
-        </div>
-       <div class="mas-vistos-art">
-          <img src="/grupo_7_E-market/public/img/mackbookpro.jpeg" alt="img-1">
-        </div>
-      </section>
-
+    
+    
+        <script src="/script.js"></script>
+      
     </main>
 <!-- Inicio de footer -->
   <footer class="footer">
