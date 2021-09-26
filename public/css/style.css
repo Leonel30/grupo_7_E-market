@@ -48,22 +48,19 @@ header img {
     overflow: hidden;
 }
 /*Inicio main */
-mas-vistos{
-    width: 100%;
-    height: 500px;
-    }
-.mas-vistos-art{
+
+.articulo-des{
     width: 95%;
     height: auto;
     margin: 20px auto;
 }
-.mas-vistos-titulo{
+.articulo-titulo{
     margin: 20px;
-
 }
-.mas-vistos-art img{
+.articulo-des img{
     width: 100%;
 }
+
 
 /*Inicio de footer */
 .footer{
@@ -96,3 +93,68 @@ color: #fff;
     text-align: center;
     color: #fff;
 }
+
+/* Css Login */
+/* Inicio de formulario */
+.title-register{
+    text-align: center;
+    padding: 20px;
+}
+form {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+    background-color:#ebebeb;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    margin: 15px auto;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+.perfil{
+    display: flex;
+    width: 80%;
+    margin: 20px 0;
+}
+.comprador{
+    height: 10px;
+    margin: 0;
+    align-self: center;
+}
+.title-profile{
+    font-size: 16px;
+    font-weight: 900;
+}
+.check-list{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.check-list input{
+    width: 40%;
+}
+.check-list label{
+    width: 60%;
+}
+.inter{
+    height: 15px;
+    display: inline;
+    border-style: none;
+}
+button{
+    border-style: none;
+    background-color: rgb(63, 181, 197);
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+/* fin de css Login */
