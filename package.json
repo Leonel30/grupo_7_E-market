@@ -1,0 +1,22 @@
+{
+  "name": "e-market",
+  "version": "1.0.0",
+  "description": "Grupo_7_E-market Integrantes:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonel30/grupo_7_E-market.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonel30/grupo_7_E-market/issues"
+  },
+  "homepage": "https://github.com/Leonel30/grupo_7_E-market#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
