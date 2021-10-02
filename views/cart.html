@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecno|Tronics|Mi Carrito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cart.css">
+
+  </head>
+<body>
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark bg-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/"> <img src="/img/tecno-tronics.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="detail">Producto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="search-bar">
+            <input type="text" name="buscar" placeholder="Bucar producto">
+        </div>
+  <div class="contenedor"> 
+    <h1>Carrito de Compras</h1>
+    <div class= "carrito">
+    <div class= "productos">
+      <div class = "producto">
+        <img src = "img/img-macbook-pro-2019.jpg">
+        <div class = "producto-info">
+              <h3 class="producto-nombre">Macbook Pro 2019</h3>
+              <h4 class="producto-precio">$ 199.000</h4>
+              <h4 class="producto-dcto">50%</h4>
+              <p class="producto-cantidad">Cant.:<input value="1" name="">
+              <p class="producto-eliminar">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    <span class="eliminar">Eliminar</span>
+              </p>
+        </div>
+      </div>
+      <main>          
+      <div class = "producto">
+        <img src = "img/img-samsung-galaxy-s10.jpg">
+        <div class = "producto-info">
+              <h3 class="producto-nombre">Samsung S10</h3>
+              <h4 class="producto-precio">$ 120.000</h4>
+              <h4 class="producto-dcto">40%</h4>
+              <p class="producto-cantidad">Cant.:<input value="1" name="">
+              <p class="producto-eliminar">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    <span class="eliminar">Eliminar</span>
+              </p>
+        </div>
+      </div>
+      <div class="total-carrito">
+           <p>
+                <span>Total</span>
+                <span>$319.000</span>
+           </p>          
+           <p>
+            <span>Cantidad de productos</span>
+            <span>2</span>
+           </p>
+           <p>
+            <span>Ahorraste</span>
+            <span>$1.000</span>
+           </p>
+           <a href="#">Proceder con la compra</a>
+      </div>
+    </div>    
+  </div>
+</main>
+  <!-- Inicio de footer -->
+  <footer class="footer">
+    <div class="footer-elem">
+        <h4>Mi Cuenta</h4>
+        <p>Mi pedido</p>
+        <p>Editar datos</p>
+    </div>
+    <div class="footer-elem">
+        <h4>promociones</h4>
+        <p>Formas de pago</p>
+        <p>Formas de entrega</p>
+        <p>Marcas</p>
+    </div>
+    <div class="footer-elem">
+        <h4>servicio al cliente</h4>
+        <ul>
+            <li>Post-Venta</li>
+            <li>Politica de cambios</li>
+            <li>Garantia</li>
+            <li>Centro de Ayuda</li>
+        </ul>
+    </div>
+    <div class="footer-elem">
+        <h4>Nosotros</h4>
+        <p>¿Quienes Somos?</p>
+        <p>¿Donde estamos?</p>
+        <p>Contacto</p>
+    </div>
+    <div class="social-network">
+        <h4>Siguenos en:</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+    </div>
+
+</footer>
+</body>
+</html>

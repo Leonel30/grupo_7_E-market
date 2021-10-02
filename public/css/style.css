@@ -1,0 +1,160 @@
+/* Paleta de colores 
+footer:#142850
+otro:#27496D
+menu:#0C7B93
+cuerpo:#00A8CC
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 85px;
+}
+header img {
+    height: 60px;
+    border-radius: 20px;
+}
+
+.bg-color{
+    background-color:#0C7B93!important;
+}
+.search-bar{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0C7B93;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.search-bar input{
+    height: 40px;
+    width: 80%;
+    border-style: none;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    margin: 50px 0px;
+    padding-left: 20px;
+}
+
+.carrucel{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(151, 79, 79);
+    overflow: hidden;
+}
+/*Inicio main */
+
+.articulo-des{
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+}
+.articulo-titulo{
+    margin: 20px;
+}
+.articulo-des img{
+    width: 100%;
+}
+
+
+/*Inicio de footer */
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: #142850;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-elem{
+width: 50%;
+color: #fff;
+}
+.footer-elem h4 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.social-network i{
+     /* margin: 0 20px;
+     background-color: #fff;
+     border-radius: 10px;
+     height: auto; */
+     font-size: 20px;
+     color: #fff;
+     padding: 0 10px;
+}
+.social-network h4{
+    text-align: center;
+    color: #fff;
+}
+
+/* Css Login */
+/* Inicio de formulario */
+.title-register{
+    text-align: center;
+    padding: 20px;
+}
+form {
+    width: 90%;
+    padding: 10px;
+    height: auto;
+    margin: 0 auto;
+    background-color:#ebebeb;
+    border-radius: 10px;
+}
+input{
+    width: 100%;
+    height: 35px;
+    margin: 15px auto;
+    padding-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+.perfil{
+    display: flex;
+    width: 80%;
+    margin: 20px 0;
+}
+.comprador{
+    height: 10px;
+    margin: 0;
+    align-self: center;
+}
+.title-profile{
+    font-size: 16px;
+    font-weight: 900;
+}
+.check-list{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.check-list input{
+    width: 40%;
+}
+.check-list label{
+    width: 60%;
+}
+.inter{
+    height: 15px;
+    display: inline;
+    border-style: none;
+}
+button{
+    border-style: none;
+    background-color: rgb(63, 181, 197);
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+/* fin de css Login */
