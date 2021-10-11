@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<%- include('partials/head.ejs') %>  
-
+  <%- include('../partials/head.ejs') %>  
 </head>
 <body>
-      <%- include('partials/header.ejs') %>
-     <!-- Fin de header -->
+    <!-- <header> -->
+  <%- include('../partials/header.ejs') %>
+  
+    <!-- Fin de header  -->
     <div class="carrucel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -36,55 +36,23 @@
         </button>
       </div>
     </div>
-  
+    <!-- Fin de header -->
     <main>
-      <section class="mas-vistos">
-        <div class="articulo-titulo">
-          <h3> Lo más Visto! </h3>
-        </div>
-       <div class="articulo-des">
-          <img src="/img/mackbookpro.jpeg" alt="img-1">
-        </div>
-      </section>
-      <section class="destacados">
-        <div class="articulo-titulo">
-          <h3> Ofertas</h3>
-        </div>
-       <div class="articulo-des">
-          <img src="/img/celulares.jpeg" alt="img-1">
-        </div>
-      </section>
-      <section class="accesorios">
-        <div class="articulo-titulo">
-          <h3> Destacados de la semana</h3>
-        </div>
-       <div class="articulo-des">
-         <a href="./detailProduct.html">
-          <img src="/img/iphone-13-pro-gallery-1.jpg" alt="img-1">
-        </a>
-        </div>
-      </section>
-      <h2>Categorias</h2>
-      <section class="electro">
-        <div class="articulo-titulo">
-          <h3>Electrodomesticos</h3>
-        </div>
-       <div class="articulo-des">
-          <img src="/img/tv1.jpeg" alt="img-1">
-        </div>
-      </section>
-      <section class="hogar">
-        <div class="articulo-titulo">
-          <h3>hogar</h3>
-        </div>
-       <div class="articulo-des">
-          <img src="/img/hogar1.jpeg" alt="img-1">
-        </div>
-      </section>
+      <h2 class="title-register">Ingresa</h2>
+      <form action="/" method="GET">
+           <label for="user"></label>
+           <input type="text" name="user" placeholder="Nombre de usuario">
+           <label for="password"></label>
+           <input type="password" name="password" placeholder="Ingresa tu contraseña">
+           <button type="submit">Ingresar</button>
+   </form>
 
     </main>
-<!-- Inicio de footer  -->
-  <%- include('partials/footer.ejs') %>
+<!-- Inicio de footer -->
+
+<%- include('../partials/footer.ejs') %>
+  
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

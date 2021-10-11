@@ -2,7 +2,7 @@ const path =  require('path');
 
 const productController = {
     index : (req,res)=> {
-        res.render('detailProduct');
+        res.render('./products/detailProduct');
     }
 }
 
