@@ -5,6 +5,7 @@ const routeProduct = require('./routes/productRoute');
 const routeLogin = require('./routes/loginRoute');
 const routeRegister = require('./routes/registerRoute');
 const routerCar = require('./routes/carRoute');
+const routeList = require('./routes/listRoute');
 
 const app = express();
 
@@ -22,6 +23,8 @@ app.use("/products", routeProduct);
 app.use('/login', routeLogin);
 app.use('/register', routeRegister );
 app.use('/car', routerCar);
+app.use('/list', routeList);
+
 
 // instanciando el servidor //
 app.listen(PORT, () => console.log('servidor corriendo en http://localhost:3005'));

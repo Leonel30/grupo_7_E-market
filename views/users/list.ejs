@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body>
+    <%- include('../partials/header') %>
+
+    <section>
+        <h1>Listado de usarios</h1>
+
+        <h2>El personal adminsitrativo que tiene acceso a la cuenta es:</h2>
+        <ul>
+            <% for( let user of usuarios) { %>
+                <li> <%= user.nombre %>  </li>
+             <% } %>   
+        </ul>
+    </section>
+
+    <%- include('../partials/footer') %>
+    
+</body>
+</html>
